@@ -1,18 +1,60 @@
+<!doctype html>
 <html lang="en">
+<head>
 	<head>
-		<title>Impress Demo</title>
+	    <meta charset="utf-8" />
+		<meta name="viewport" content="width=1024" />
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+		<title>Présentation du 22 novembre 2012</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 		<link href="https://s3.amazonaws.com/static.opml.org/opmlEditor/impress/css/impress-demo.css" rel="stylesheet" type="text/css">
+		<meta content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<style>	
+			body {
+				background-color: white;
+				background-image: none;
+			}
+			div.step img {
+				margin: auto;
+				max-width: 300px;
+				max-height: 300px;
+			}
+		</style>
 	</head>
-	<body>
+	<body class="impress-supported impress-enabled" style="height: 100%; overflow: hidden;">
 		<div id="impress">
-			<div>
-				<p>hello1</p>
+
+			<div class="step" data-scale-"10" data-x="-3000">
 			</div>
-			<div>
-				<p>hello2</p>
+			<div class="step" data-x="-1000" data-y="0">
+				<img src="http://miamiscooterclub1.com/Pics/meetup_logo_1.png">
 			</div>
+			<div class="step" data-x="0" data-y="-1000" data-rotate="90">
+				<img src="img/eventbrite.png"><c/enter>
+			</div>
+			<div class="step" data-x="1000" data-y="0" data-rotate="180">
+				<img src="img/google-agenda.png">
+			</div>
+			<div class="step" data-x="0" data-y="1000" data-rotate="270">
+				<img src="https://twimg0-a.akamaihd.net/profile_images/1122140158/Juggy_version06_logo.png">
+			</div>
+			<div class="step" data-scale="4" data-x="1200" data-y="0" data-rotate="360" data-z="100">
+				<img src="http://onecalendar.valtech.fr/assets/images/onecalendar-beta.png">
+			</div>
+			<div class="step" data-x="5000" data-rotate="360">
+				<h1>Les concepts de OneCalendar</h1>
+					<p>Fusionner les différents fournisseurs</p>
+					<p>Chacun catégorisé</p>
+					<p>Filtré selon les centres d'intérets</p>
+					<p>Directement dans votre poche</p>
+					<p>Régulièrement mis à jour</p>
+			</div>
+			
 		</div>
-		<script type="text/javascript">impress().init();</script>
 		<script type="text/javascript" src="https://s3.amazonaws.com/static.opml.org/opmlEditor/impress/js/impress.js"></script>
+		<script type="text/javascript">
+				impress().init()
+		</script>
 	</body>
 </html>
